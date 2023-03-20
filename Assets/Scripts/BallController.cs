@@ -46,6 +46,10 @@ public class BallController : MonoBehaviour
     // Tämä pitää ylhäällä lyöntejä
     public int putts;
 
+    bool buttonHeldDown;
+
+    public GameObject ballObject;
+
     void Start()
     {
         // Haetaan AudioSource m_MyAudioSource muuttujaan
@@ -105,13 +109,28 @@ public class BallController : MonoBehaviour
             // Jos pallo liikkuu, niin piilotetaan viiva
             line.enabled = false;
         }
-
+        if (buttonHeldDown)
+        {
+            angle += Time.deltaTime * changeAngelSpeed;
+        }
     }
 
     // Kulman säätäjä funktio.
     public void ChangeAngle(int direction)
     {
         angle += changeAngelSpeed * Time.deltaTime * direction;
+
+        
+    }
+    public void HoldButton()
+    {
+        buttonHeldDown = true;
+    }
+
+    public void ReleaseButton()
+    {
+        buttonHeldDown = false;
+        angle = 0;
     }
 
     // Viivan paikan päivittäjä
