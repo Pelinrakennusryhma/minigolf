@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38496128, g: 0.6009269, b: 0.6361861, a: 1}
+  m_IndirectSpecularColor: {r: 0.38496125, g: 0.60092664, b: 0.63618654, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -718,6 +718,7 @@ MonoBehaviour:
   powerSlider: {fileID: 75257884}
   puttCountLabel: {fileID: 1618035610}
   putts: 0
+  ballObject: {fileID: 0}
 --- !u!82 &271489127
 AudioSource:
   m_ObjectHideFlags: 0

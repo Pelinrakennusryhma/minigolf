@@ -604,6 +604,7 @@ MonoBehaviour:
   powerSlider: {fileID: 75257884}
   puttCountLabel: {fileID: 1618035610}
   putts: 0
+  ballObject: {fileID: 0}
 --- !u!82 &271489127
 AudioSource:
   m_ObjectHideFlags: 0
