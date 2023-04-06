@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.679325, g: 0.7328694, b: 0.80467784, a: 1}
+  m_IndirectSpecularColor: {r: 0.67935973, g: 0.73288846, b: 0.8046861, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -678,6 +678,7 @@ MonoBehaviour:
   powerSlider: {fileID: 75257884}
   puttCountLabel: {fileID: 1618035610}
   putts: 0
+  ballObject: {fileID: 0}
 --- !u!82 &271489127
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3790,7 +3791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0092657115
+      value: 0.009816106
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalScale.y
@@ -3802,7 +3803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00176
+      value: 0.00099
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4647,8 +4648,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6507901976613858507}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 2.3283e-10, z: -0.099999994}
-  m_LocalScale: {x: 5.000001, y: 5.005501, z: 5.000001}
+  m_LocalPosition: {x: -0, y: 0, z: -0.10187}
+  m_LocalScale: {x: 5.000001, y: 5.192241, z: 5.000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543450652601432101}

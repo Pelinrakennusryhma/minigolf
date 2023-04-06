@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.5015748, g: 0.27015787, b: 0.21001217, a: 1}
+  m_IndirectSpecularColor: {r: 0.50175965, g: 0.27028084, b: 0.21009675, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -604,6 +604,7 @@ MonoBehaviour:
   powerSlider: {fileID: 75257884}
   puttCountLabel: {fileID: 1618035610}
   putts: 0
+  ballObject: {fileID: 0}
 --- !u!82 &271489127
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1273,7 +1274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0011185448
+      value: 0.0013588531
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalScale.z
@@ -1281,7 +1282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.94637
+      value: -0.94517
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1578,7 +1579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.009103075
+      value: 0.0094126705
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1590,7 +1591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.08337
+      value: -0.08182
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2625,7 +2626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.009081829
+      value: 0.009296705
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalScale.z
@@ -2633,7 +2634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9875
+      value: -0.98857
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3613,7 +3614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0011185448
+      value: 0.0014428773
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalScale.z
@@ -3621,7 +3622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0315
+      value: -1.03313
       objectReference: {fileID: 0}
     - target: {fileID: 2733506230901217572, guid: efab35cc3793d094e937094a576d48ae, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4807,8 +4808,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7712914260773266298}
   m_LocalRotation: {x: 0.5, y: 0.49999997, z: 0.5, w: -0.5}
-  m_LocalPosition: {x: -1.1393853, y: 0.0050000004, z: -0.1317509}
-  m_LocalScale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+  m_LocalPosition: {x: -1.13913, y: 0.005, z: -0.1317509}
+  m_LocalScale: {x: 1.0000005, y: 1.0051205, z: 1.0000005}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8562569798201921907}
