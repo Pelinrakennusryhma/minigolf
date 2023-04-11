@@ -1086,8 +1086,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe4033475520cc94d8e08683c5f6fc04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 963194227}
-  target: {fileID: 271489120}
 --- !u!4 &522764495
 Transform:
   m_ObjectHideFlags: 0
@@ -1744,7 +1742,6 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
-  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1834,32 +1831,6 @@ MonoBehaviour:
   x: -0.02
   y: 0.3
   z: -0.62
---- !u!114 &963194230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 436275a13d4459746955fc6db5953473, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _active: 1
-  _enableRotation: 1
-  _mouseSense: 1
-  _enableTranslation: 1
-  _translationSpeed: 55
-  _enableMovement: 1
-  _movementSpeed: 5
-  _boostedSpeed: 25
-  _boostSpeed: 304
-  _moveUp: 101
-  _moveDown: 113
-  _enableSpeedAcceleration: 1
-  _speedAccelerationFactor: 1.5
-  _initPositonButton: 114
 --- !u!224 &968197967 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8396749208471064591, guid: 3f441e6ff23f7dc47a23c5a656ab3045, type: 3}
@@ -3149,6 +3120,7 @@ GameObject:
   - component: {fileID: 1933149128}
   - component: {fileID: 1933149127}
   - component: {fileID: 1933149126}
+  - component: {fileID: 1933149130}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3244,6 +3216,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1933149130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933149125}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6153232749ec2469fbc8f310bedc7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2064290157
 GameObject:
   m_ObjectHideFlags: 0
@@ -3334,6 +3318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2073470576}
   - component: {fileID: 2073470575}
+  - component: {fileID: 2073470577}
   m_Layer: 0
   m_Name: TimerManager
   m_TagString: Untagged
@@ -3375,6 +3360,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2073470577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073470574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6153232749ec2469fbc8f310bedc7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &311182071004507350
 Transform:
   m_ObjectHideFlags: 0
