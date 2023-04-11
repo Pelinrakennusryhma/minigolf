@@ -77,13 +77,13 @@ public class BallController : MonoBehaviour
         if (ball.velocity.magnitude < 0.01f) {
             // Näytä viiva
             line.enabled = true;
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            if (Input.GetKey(KeyCode.LeftArrow))
             {
                 // Ottaa yhteyttä funktioon ChangeAngle(arovlla -1);,
                 // tämä vaihtaa suuntaa.
                 ChangeAngle(-1);
             }
-            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            if (Input.GetKey(KeyCode.RightArrow))
             {
                 // Ottaa yhteyttä funktioon ChangeAngle(arovlla 1);,
                 // tämä vaihtaa suuntaa.
